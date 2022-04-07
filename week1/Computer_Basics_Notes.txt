@@ -1,0 +1,42 @@
+Computer Basics
+
+- Processor
+	- Brain of your computer
+	- Run commands written in machine code
+
+- Storage (HDD, SSD)
+	- Long term memory
+	- Only part of your computer that preserves anything after you shut it down
+
+- RAM (Random Access Memory)
+	- Short term memory
+	- Where inputs and outputs of commands are stored, and where your running programs are stored
+	- Fast
+
+- Cluster
+	- Network of multiple systems that work together as a single unit
+
+- Node
+	- Single machine inside a cluster
+	- Single-node cluster
+		- Cluster with one node
+
+- OS (operating system)
+	- Unix-like OS
+		- Ubuntu
+		- Many Big Data tools work only/better on Unix-like OS
+
+- Binaries
+	- Applications that can be run (bin => binaries)
+	- Written in machine code which can be interpreted by our processor
+
+- Shell/Terminal/CLI (Command Line Interface)
+	- Interface that allows users to communicate with the kernel (core of OS)
+
+- Kernel
+	- Core of our OS
+	- Control all tasks of the system
+
+- VM (Virtual machine)
+	- Like running an OS on hardware, but on virtual "hardware"
+	- Resources are allocated from the actual hardware to run a VM
