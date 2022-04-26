@@ -8,7 +8,7 @@ Write a Python function that creates a Counter given an inputed list. Print out 
 from most instances to least.
 
 2) def named_Tuple(lst_tuples):
-Write a Python function that returns a list of namedtuples gioven a list of tuples. Your named tuples should also include
+Write a Python function that returns a list of namedtuples given a list of tuples. Your named tuples should also include
 an extra element at the end that incorporates a datetime object
 
 3) def find_emails(file_name):
