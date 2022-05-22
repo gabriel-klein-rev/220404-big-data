@@ -28,7 +28,7 @@ git version 2.17.1
 https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
 
 // Download Spark from (https://spark.apache.org/downloads.html)
->>> wget https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
+>>> wget https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
 
 
 // extract the saved archive using the tar command:
