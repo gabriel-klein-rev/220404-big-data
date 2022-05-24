@@ -1,0 +1,52 @@
+Spark
+- Driver Program
+	- Core of program
+	- Initiates SparkContext
+	- Sends output of program once all jobs are completed
+- Worker Nodes
+	- Executor
+		- Execute each task sent by the cluster manager
+		- Once job is completed, sends output to the driver program
+	- Cache
+		- Temporary storage
+		- Located in RAM
+- Cluster Manager
+	- Manage clusters
+	- Send tasks to worker nodes to run in parallel
+
+
+- Cluster Mode
+	- Driver program runs inside of Cluster container
+		- YARN container
+- Client Mode
+	- Driver program runs separate from the cluster
+
+
+- RDD (Resilient Distributed Dataset)
+	- Primary user-facing API in Spark
+	- Partitioned across nodes in the cluster
+	- Can be operated up on in parallel
+	- Operations we can perform:
+		- Transformations
+		- Actions
+	- Reason for RDD's
+		- Unstructured data
+		- To manipulate data with functional programming
+		- Don't care about imposing a schema
+
+- DF (DataFrame)
+	- Data is organized into named columns, much like a table in a relational db
+	- Allow users to impose a schema onto large sets of data
+	- Queryable
+	- DF = DS[Rows]
+
+- DS (DataSet)
+	- Data is organized into named columns, much like a table in a relational db
+	- Queryable
+	- Strongly typed
+
+			SQL		DF		DS
+
+Syntax Errors		Runtime		CompileTime	CompileTime
+
+Analysis Errors		Runtime		Runtime		CompileTime
